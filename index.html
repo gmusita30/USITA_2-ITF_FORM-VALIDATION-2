@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src = "js/index.js"></script>
+</head>
+<div class="container">
+<body>
+
+    <form >
+    <fieldset>
+    <div class="puta">
+        <label>Login: <input type="text" id="login"  name= "input1" class="yes" required></label><br><br>
+    </div>  
+    <div class="tang">    
+        <label>Password: <input type="password" id="password" name="input2" class="no" required></label><br><br>
+    </div>
+    <div class="shet">
+        <label>Confirm password: <input type="password" id="confPass" name="input3" class="huh" required> </label><br><br>
+    </div>
+    <div class="nam">
+        <label id="type" >Gender:</label>
+                <select id="genType" name="events" class="tiit" name= "input4" class = "hell"required>
+                <option value = "Choose">Choose One: </option>
+                <option value="Choose one">Male</option>
+                <option value="Choose two">Female</option>
+            </select><br><br>
+    </div>
+<div class="ina">
+        <label>Email: <input type="email" id="email" name="input5" class="naw" required> </label><br><br>
+    </div>
+    <div class="bob">
+        <button type="submit" id='reg' onclick="checkPass()">Register</button>
+        <b><label id = "Submited"></label></b>
+    </div>
+    </fieldset>
+    </form>
+</div>   
+</body>
+</html>

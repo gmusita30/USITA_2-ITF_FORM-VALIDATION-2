@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+    width: 500px;
+    height: 800px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 2%;
+    border-color: black;
+    padding: -50px;
+
+}
+body{
+    
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+.puta{
+    margin-left: 49px;
+    
+}
+.tang{
+    margin-left: 49px;
+    width: 310px;
+    
+}
+
+.shet{
+    margin-left: 49px;
+    
+}
+
+.nam{
+    margin-left: 49px; 
+}
+
+
+.ina{
+    margin-left: 49px;
+}
+
+.bob{
+    margin-left: 49px;
+}
+.yes{
+    margin-left: 49px;
+    width: 150px;
+    align-self: auto;
+}
+
+.no{
+    margin-left: 49px; 
+    width: 150px;
+    align-self: auto;
+}
+
+
+.huh{
+    margin-left: 49px;
+}
+
+.hell{
+    margin-left: 50px;
+}
