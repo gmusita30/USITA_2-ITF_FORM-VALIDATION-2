@@ -1,11 +1,11 @@
 .container {
     position: relative;
-    width: 500px;
-    height: 800px;
-    margin-top: 10%;
+    width: 650px;
+    height: 294px;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color:gray;
     border-radius: 2%;
     border-color: black;
     padding: -50px;
@@ -18,28 +18,35 @@ body{
     
 }
 
+fieldset{
+    height: 100%;
+    padding: 40px 100px 20px 40px;
+    border: 10px solid;
+    border-color: black;
+}
+
 .puta{
     margin-left: 49px;
     
 }
 .tang{
-    margin-left: 49px;
+    margin-left: 15px;
     width: 310px;
     
 }
 
 .shet{
-    margin-left: 49px;
+    margin-right: 20px;
     
 }
 
 .nam{
-    margin-left: 49px; 
+    margin-left: 80px; 
 }
 
 
 .ina{
-    margin-left: 49px;
+    margin-left: 99px;
 }
 
 .bob{
@@ -59,7 +66,7 @@ body{
 
 
 .huh{
-    margin-left: 49px;
+    margin-left: 79px;
 }
 
 .hell{

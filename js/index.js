@@ -16,26 +16,17 @@ function checkPass(){
         document.getElementById("password").style.backgroundColor = "#FFD2D2";
     }
     else  {
-            document.getElementById("password").innerHTML = "mali ka "
-      
+            
+        document.getElementById("alert").innerHTML = "Passwords are not the same";
     }
    if(input4.value == "Choose") {
-        alert("Please specify your gender");
-        return false;
+    document.getElementById("alert").innerHTML = "";
     }
     if (input5.value == "") {
-        alert("Please enter your email");
-        return false;
+        document.getElementById("email").style.backgroundColor = "#FFD2D2";
     }
-
-
-     else{
-        document.getElementById("Submit").innerHTML = "";
-        alert ("The Event Form has been successfully saved!");
-        return true;
-
-    }
-
-    
+    else if(email!=""){
+        document.getElementById("password").style.backgroundColor = "#DFF2BF";
+    }  
 }
 checkPass();
